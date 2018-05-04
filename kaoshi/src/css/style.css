@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+header .aa {
+  float: left;
+  margin-left: 10px;
+}
+header .cc {
+  float: right;
+  margin-right: 10px;
+}
+section {
+  width: 100%;
+}
+section .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+section .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+section .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+section li {
+  float: left;
+  margin-left: 6%;
+}
+section li.on {
+  border-bottom: 1px solid red;
+}
+section .zz {
+  width: 100%;
+}
+section .zz div {
+  width: 100%;
+  height: 200px;
+}
+section .zz div ul {
+  width: 50%;
+  float: left;
+}

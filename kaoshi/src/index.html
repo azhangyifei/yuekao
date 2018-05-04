@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+<body>
+	<div class="wrap">
+	<header>
+		<span class="aa"><</span>
+		<span class="bb">家居</span>
+		<span class="cc">搜索</span>
+	</header>
+	<section>
+
+             <ul>
+	             <li>床品</li>
+	             <li>被枕</li>
+	             <li>家具</li>
+	             <li>收纳</li>
+	             <li>布艺</li>
+	             <li>宠物</li>
+	         </ul> 
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            <div class="zz"></div>
+             <script id="ff" type="text/x-handlebars-template">
+		     {{#each pic}}
+		     <div>
+		       <ul>
+             	 <li><a href="lian.html"><img src="{{this.aaa}}"></a></li>
+             	 <li>{{this.bbb}}</li>
+
+               </ul>
+               <ul>
+             	 <li><a href="lian.html"><img src="{{this.aaa}}"></a></li>
+             	 <li>{{this.bbb}}</li>
+
+               </ul>
+		     </div>
+		     <div>
+		       <ul>
+             	<li><a href="lian.html"><img src="{{this.aaa}}"></a></li>
+             	 <li>{{this.bbb}}</li>
+               </ul>
+               <ul>
+             	 <li><a href="lian.html"><img src="{{this.aaa}}"></a></li>
+             	 <li>{{this.bbb}}</li>
+               </ul>
+		     </div>
+		     <div>
+		       <ul>
+             	 <li><a href="lian.html"><img src="{{this.aaa}}"></a></li>
+             	 <li>{{this.bbb}}</li>
+               </ul>
+               <ul>
+             	<li><a href="lian.html"><img src="{{this.aaa}}"></a></li>
+             	 <li>{{this.bbb}}</li>
+               </ul>
+		     </div>
+		     <div>
+		       <ul>
+             	 <li><a href="lian.html"><img src="{{this.aaa}}"></a></li>
+             	 <li>{{this.bbb}}</li>
+               </ul>
+               <ul>
+             	<li><a href="lian.html"><img src="{{this.aaa}}"></a></li>
+             	 <li>{{this.bbb}}</li>
+               </ul>
+		     </div>
+             
+		     {{/each}}
+	         </script>
+            	
+            </div>
+            <div class="swiper-slide">slider2</div>
+            <div class="swiper-slide">slider3</div>
+            <div class="swiper-slide">slider4</div>
+            <div class="swiper-slide">slider5</div>
+            <div class="swiper-slide">slider6</div>
+          </div>
+        </div>
+	</section>
+		
+	</div>
+	<script src="js/lib/require.js" data-main="js/main.js"></script>
+	
+</body>
+</html>
